@@ -15,3 +15,8 @@ def dev_test(request):
 def index(request):
     print('使用pycharm工具完成')
     return HttpResponse('index')
+
+# 使用pycharm来推送到github
+def index2(request):
+    print('使用pycharm工具完成push')
+    return HttpResponse('index2')
